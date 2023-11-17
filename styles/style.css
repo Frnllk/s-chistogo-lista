@@ -6,6 +6,7 @@ body {
   font-weight: 400;
   box-sizing: border-box;
   width: 360px;
+  margin: auto;
 }
 
 h1,
@@ -29,6 +30,7 @@ a {
 a:hover {
   text-decoration-color: white;
   text-underline-offset: 0.4em;
+  opacity: 0.5;
 }
 
 .header {
@@ -66,14 +68,15 @@ a:hover {
 .cover {
   background-image: url("../images/cover.svg");
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right center;
   background-size: 95% auto;
+  padding: 7px 20px 30px 20px;
 }
 
 .cover__title {
-  padding-top: 14px;
+  /* padding-top: 7px;
   padding-left: 20px;
-  padding-right: 24px;
+  padding-right: 24px; */
 }
 
 .accent-span {
@@ -83,6 +86,7 @@ a:hover {
   font-style: normal;
   line-height: 100%;
   font-weight: 400;
+  color:#FFF;
 }
 
 .text-center {
